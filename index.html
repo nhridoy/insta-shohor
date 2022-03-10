@@ -172,32 +172,39 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <table class="table">
+              <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">LocalStorage</th>
+                    <th scope="col">SessionStorage</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>LocalStorage is a storage is the browser.</td>
+                    <td>SessionStorage is a storage is the browser.</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>LocalStorage is parmanent.</td>
+                    <td>SessionStorage is temporary.</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>LocalStorage does not get clear on browser close.</td>
+                    <td>SessionStorage gets clear on browser close.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>LocalStorage does not get clear on tab close.</td>
+                    <td>SessionStorage gets clear on tab close.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>LocalStorage does not get clear on tab change.</td>
+                    <td>SessionStorage gets clear on tab change.</td>
                   </tr>
                 </tbody>
               </table>
