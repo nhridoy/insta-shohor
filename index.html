@@ -101,7 +101,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              How does JavaScript Work?
             </button>
           </h2>
           <div
@@ -111,14 +111,12 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              JavaScript is a single threded multiparadigm programming language.
+              It mainly runs on browser. JavaScript is a dynamic language. It is
+              being used to make a website interactive. It is an intetpreted
+              language. That means the interprator which is inside a browser
+              reads the JavaScript code line by line and executes it. Because of
+              this, JavaScript is a very fast language.
             </div>
           </div>
         </div>
@@ -132,7 +130,7 @@
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              What does JavaScript Event Loop does?
             </button>
           </h2>
           <div
@@ -142,14 +140,15 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Event loop is a JavaScript concept. It is a way to run JavaScript
+              code. We know that JavaScript is a single threaded programming
+              language. That means it can run only one code each time. But if
+              the code contains some functions, that takes some time to execute,
+              then other code will do nothing but wait for the function to
+              complete. That is why JavaScript has an event loop. It is a way to
+              run the code in a loop. Event loop keeps functions in a stack and
+              in a queue, and it executes the functions one by one. If the stack
+              gets empty then it runs functions from the queue.
             </div>
           </div>
         </div>
@@ -163,7 +162,7 @@
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Accordion Item #3
+              Difference between LocalStorage and SessionStorage?
             </button>
           </h2>
           <div
@@ -173,14 +172,35 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
@@ -189,6 +209,11 @@
     <footer></footer>
 
     <!-- add javascript  file  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
